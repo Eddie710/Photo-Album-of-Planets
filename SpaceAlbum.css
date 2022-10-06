@@ -1,0 +1,162 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+body{
+    background-image: url("https://wallpaperaccess.com/full/1745055.jpg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 1200px;
+    margin: 0%;
+}
+div{
+/*     
+    border: 5px solid white ; */
+}
+
+
+
+header{
+    text-align: center;
+    background-image: linear-gradient( black, rgb(68, 3, 68));
+    width: 100%;
+    height: 200px;
+}
+
+
+/* Constellation Group */
+#planetFlex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 300px;
+    flex-wrap:wrap;
+    justify-content: center;
+ 
+}
+
+/* Image Properties */
+
+#sun{
+    transition: 1s;
+}
+
+#mercury{
+    transition: 1s;
+}
+
+#venus{
+    margin-right: 300px;
+    transition: 1s;
+}
+
+#earth{
+    transition: 1s;
+}
+
+#mars{
+    filter: blur(100%);
+    transition: 1s;
+    
+}
+
+#jupiter{
+    transition: 1s;
+}
+
+
+/* Image Adjustments */
+/* Size 1: Largest | Size 6: Smallest */
+/*Size 1*/
+
+h1{
+    color: rgb(45, 7, 107);
+    font-size: 150px;
+    margin-top: -5px;
+    text-shadow: 1px 1px purple;
+    
+}
+
+p{
+    color: white;
+    margin-right: 10px;
+    text-shadow: 1px 1px orangered;
+    font-size: larger;
+}
+
+p {transition-timing-function: ease-out;}
+
+p:hover{
+    font-size: 80px;
+    background-color: rgba(57, 7, 184, 0.341);
+    transition: 1s;
+}
+
+img.sunimg{
+   filter: grayscale(100%);
+   transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+img.mercimg{
+   filter: brightness(0%);
+   transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+img.venimg{
+   filter: sepia(100%);
+   transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+img.earimg{
+   filter: hue-rotate(100deg);
+   transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+img.marimg{
+   filter: invert(100%);
+   transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+img.jupimg{
+   filter: opacity(0%);
+   transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Hover Scale and Transition X3 */
+
+img:hover{
+filter: none;
+transition:1s;
+transform: rotate(720deg);
+transition: all 1s ease-in-out 0s;
+
+
+}
+
+
+
+
+/* Planet Facts Display */
+
+
+
+
+/* #tesla{
+    margin-top: 40px;
+    width: 800px;
+    height: 200px;
+    
+} */
+
+/* #tesla:focus{
+    transition: 2s;
+    margin-left: 800px;
+    
+} */
